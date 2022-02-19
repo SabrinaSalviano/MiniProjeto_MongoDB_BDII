@@ -1,0 +1,27 @@
+{
+  "name": "miniprojeto_mongodb_bdii",
+  "version": "1.0.0",
+  "description": "Mini Projeto MongoDB - Banco de Dados II",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SabrinaSalviano/MiniProjeto_MongoDB_BDII.git"
+  },
+  "author": "Sabrina Salviano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SabrinaSalviano/MiniProjeto_MongoDB_BDII/issues"
+  },
+  "homepage": "https://github.com/SabrinaSalviano/MiniProjeto_MongoDB_BDII#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.2",
+    "nodemon": "^2.0.15"
+  }
+}
